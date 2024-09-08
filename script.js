@@ -13,7 +13,7 @@ function signUp() {
     if (n.value && e.value && p.value) {
         usersArr.push(newUser);
         localStorage.setItem("users", JSON.stringify(usersArr));
-        location.href = "./index1.html";
+        location.href = "./index.html";
     } else {
         document.querySelector(".error-msg").style.color = "red";
         document.querySelector(".error-msg").textContent =
